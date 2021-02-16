@@ -1,0 +1,29 @@
+.row1{
+        display:flex;
+        justify-content: space-evenly ;
+        }
+
+.camel{
+    display:flex;
+    justify-content: center;
+}
+
+.head{
+    display:flex;
+    justify-content: center;
+    color:hsl(0, 72%, 50%)
+}
+
+.camel:hover{
+    opacity: 0.5;
+    transition: 0.5s linear;
+}
+
+.row1:hover{
+    opacity: 0.5;
+    transition: step-start;
+}
+
+html,body{
+    background-image:linear-gradient(to left, rgba(0, 60, 255, 0.452),rebeccapurple,rgb(48, 45, 226) )
+}
